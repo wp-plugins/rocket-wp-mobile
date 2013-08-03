@@ -1,11 +1,11 @@
 <?php
 /**
 Plugin Name: WP Mobile Plugin
-Plugin URI: http://muneeb.me/wordpress-mobile-plugin/
+Plugin URI: http://rocketplugins.com/wordpress-mobile-plugin/
 Description: All in one mobile solution for your WordPress powered blog or site
 Author: Muneeb
-Author URI: http://muneeb.me/wordpress-mobile-plugin/
-Version: 0.1
+Author URI: http://rocketplugins.com/wordpress-mobile-plugin/
+Version: 0.2
 Copyright: 2013 Muneeb ur Rehman http://muneeb.me
 **/
 

@@ -39,6 +39,41 @@
 			
 		</tr>
 
+		<tr id="menu-info">
+			
+			<td class="label">
+				<label>
+					<?php _e( 'Mobile Menu', 'wpmp' ); ?>
+				</label>
+				<p class="description"></p>
+			</td>
+			<td>
+				A new menu location <strong><em>Primary WP Mobile Theme Menu </em></strong>is added for custom mobile menu in <a href="<?php echo admin_url( 'nav-menus.php' ); ?>">menu admin page</a>. Place your existing or newly created menu on this location
+			</td>
+			
+		</tr>
+
+		<tr id="custom-homepage">
+			
+			<td class="label">
+				<label>
+					<?php _e( 'Mobile Homepage', 'wpmp' ); ?>
+				</label>
+				<p class="description"><?php _e( 'Set a custom page to be used as a homepage for mobile visitors', 'wpmp' ); ?></p>
+			</td>
+			<td>
+				<select name="settings[custom-homepage]">
+					<option value='' <?php selected( '', $settings['custom-homepage'] ) ?>><?php _e( 'WordPress Reading Settings', 'wpmp' ) ?></option>
+					<?php foreach ( $pages as $page ): ?>
+						<option value="<?php echo $page->ID ?>" <?php selected( $page->ID, $settings['custom-homepage'] ) ?>>
+							<?php echo $page->post_title ?>
+						</option>
+					<?php endforeach; ?>
+				</select>
+			</td>
+			
+		</tr>
+
 		<tr id="footer-text">
 			
 			<td class="label">
@@ -77,20 +112,6 @@
 			</td>
 			<td>
 				<input type="text" name="settings[switch-to-mobile-text]" value="<?php echo $settings['switch-to-mobile-text'] ?>" />
-			</td>
-			
-		</tr>
-
-		<tr id="menu-info">
-			
-			<td class="label">
-				<label>
-					<?php _e( 'Mobile Menu', 'wpmp' ); ?>
-				</label>
-				<p class="description"></p>
-			</td>
-			<td>
-				A new menu location <strong><em>Primary WP Mobile Theme Menu </em></strong>is added for custom mobile menu in <a href="<?php echo admin_url( 'nav-menus.php' ); ?>">menu admin page</a>. Place your existing or newly created menu on this location
 			</td>
 			
 		</tr>

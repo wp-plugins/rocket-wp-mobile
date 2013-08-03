@@ -193,7 +193,8 @@ class Wpmp_Settings {
 				'theme' => 'thoughts',
 				'footer-text' => __( 'All content © Copyright', 'wpmp' ),
 				'switch-to-desktop-text' => __( 'SWITCH TO DESKTOP SITE', 'wpmp' ),
-				'switch-to-mobile-text' => __( 'SWITCH TO MOBILE SITE', 'wpmp' )
+				'switch-to-mobile-text' => __( 'SWITCH TO MOBILE SITE', 'wpmp' ),
+				'custom-homepage' => ''
 			);
 
 		return apply_filters( 'wpmp_default_settings', $default_settings );
@@ -233,6 +234,8 @@ class Wpmp_Settings {
 	function general_settings_meta_box( $settings ) {
 
 		$themes = wpmp_get_themes();
+
+		$pages = get_pages();
 
 		include wpmp_settings_part( 'general-meta-box.php' );
 

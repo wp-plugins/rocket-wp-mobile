@@ -36,4 +36,4 @@ define( 'MOBILE_PLUGIN_MAIN_FILE', MOBILE_PLUGIN_PATH . 'wp-mobile.php' );
 
 define( 'MOBILE_PLUGIN_MOBILE_ONLY_SHORTCODE', 'mobile_only' );
 
-define( 'MOBILE_PLUGIN_VERSION', '0.1' );
+define( 'MOBILE_PLUGIN_VERSION', '0.2' );

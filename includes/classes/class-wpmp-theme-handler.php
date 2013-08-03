@@ -50,6 +50,10 @@ class Wpmp_Theme_Handler {
 
 		add_filter( 'wpmp_themes', array( $this, 'register_theme' ) );
 
+		add_filter( 'option_show_on_front', array( $this, 'set_show_on_front_option' ), 1, 99 );
+
+		add_filter( 'option_page_on_front', array( $this, 'set_page_on_front_option' ), 1, 99 );
+
 		if ( $this->is_activated() && $this->check_rules() 
 			&& $this->type === 'realtheme' )
 				$this->theme_change();
@@ -235,6 +239,45 @@ class Wpmp_Theme_Handler {
 		
 		}
 
+
+	}
+
+	function set_show_on_front_option( $option ) {
+
+		if ( ! $this->is_mobile() )
+			return $option;
+		
+		$settings = wpmp_get_settings();
+
+		if ( $settings['status'] !== 'enabled' )
+			return FALSE;
+
+		if ( empty( $settings['custom-homepage'] ) || isset( $settings['custom-homepage'] ) )
+			return $option;
+
+		return 'page';
+
+	}
+
+	function set_page_on_front_option( $option ) {
+
+		if ( ! $this->is_mobile() )
+			return $option;
+
+		$settings = wpmp_get_settings();
+
+		if ( $settings['status'] !== 'enabled' )
+			return FALSE;
+
+		if ( empty( $settings['custom-homepage'] ) || isset( $settings['custom-homepage'] ) )
+			return $option;
+
+		$page_id = $settings['custom-homepage'];
+
+		if ( ! get_post( $page_id ) )
+			return $option;
+
+		return $page_id;
 
 	}
 
