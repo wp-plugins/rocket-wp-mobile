@@ -4,7 +4,7 @@ Donate link:http://rocketplugins.com/wordpress-mobile-plugin/
 Tags: mobile plugin,wordpress mobile site,wordpress,wordpress mobile,wordpress mobile plugin,wordpress mobile theme,wptouch,iphone,responsive,mobile site,jquery mobile,android,blackberry,theme,mobile theme
 Requires at least: 3.1
 Tested up to: 3.6
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2 or later
 
 All in one mobile solution for your WordPress powered blog or site. Converts WordPress website into a more mobile-friendly website
