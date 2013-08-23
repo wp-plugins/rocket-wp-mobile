@@ -15,7 +15,7 @@ If you have a desktop site which is not responsive or mobile compatible this plu
 
 = Features =
 
-* Custom Menus/Navigation - Fully compatible with WordPress custom menus. Use an exisitng menu or assign newly created menu for your mobile theme.
+* Custom Menus/Navigation - Fully compatible with WordPress custom menus. Use an existing menu or assign newly created menu for your mobile theme.
 * Set a custom homepage for mobile visitors or by default use WordPress reading options
 * Change mobile theme Logo
 * Change mobile theme homepage Subtitle text
