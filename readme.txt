@@ -25,6 +25,10 @@ If you have a desktop site which is not responsive or mobile compatible this plu
 * Can change Switch To Desktop Text
 * Can change Switch To Mobile Text
 
+I hope you like and love my plugin in the same way like I do and to love it you have to actually install and use it. Please install the plugin and use it and then let me know your feedback [here](http://rocketplugins.com/contact)
+
+<strong>For more advanced features, themes and to get guaranteed support be sure to check out our premium version of the plugin, [WordPress Mobile Plugin](http://rocketplugins.com/wordpress-mobile-plugin/)</strong>
+
 == Screenshots ==
 Please click on the link to visit <a href="http://rocketplugins.com/wordpress-mobile-plugin/">Screenshots page</a>.
 
