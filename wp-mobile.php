@@ -5,7 +5,7 @@ Plugin URI: http://rocketplugins.com/wordpress-mobile-plugin/
 Description: All in one mobile solution for your WordPress powered blog or site
 Author: Muneeb
 Author URI: http://rocketplugins.com/wordpress-mobile-plugin/
-Version: 0.4
+Version: 0.4.1
 Copyright: 2013 Muneeb ur Rehman http://muneeb.me
 **/
 
