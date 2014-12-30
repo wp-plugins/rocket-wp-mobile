@@ -3,7 +3,7 @@ Contributors: Muneeb
 Donate link:http://rocketplugins.com/wordpress-mobile-plugin/
 Tags: wordpress mobile site,wordpress,wordpress mobile,wordpress mobile plugin,mobile plugin,wordpress mobile theme,wptouch,iphone,responsive,mobile site,jquery mobile,android,blackberry,theme,mobile theme
 Requires at least: 3.1
-Tested up to: 3.8
+Tested up to: 4.1
 Stable tag: 0.4.1
 License: GPLv2 or later
 
